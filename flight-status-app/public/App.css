@@ -1,0 +1,74 @@
+/* src/styles/App.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .app {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .flight-status-dashboard,
+  .notifications-panel {
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .table th,
+  .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .table th {
+    background-color: #f2f2f2;
+  }
+  
+  input[type='text'] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .notifications-panel ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .notifications-panel ul li {
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .notifications-panel h3 {
+    margin-top: 20px;
+  }
+  
+  .notifications-panel label {
+    display: block;
+    margin-top: 10px;
+  }
+  
